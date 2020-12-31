@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy new year</title>
+    <link href="style.css" ref="stylesheet">
+</head>
+<body>
+    <div class="solar-system">
+        <div class="orbit orbit-sun"></div>
+        <div class="orbit orbit-mercury" id="position-mercury">
+        <div class="planet planet-mercury" id="opacity-mercury">
+        <img src="https://josetxu.com/demos/img/mercury.png" alt="mercury">
+        </div>
+        </div>
+        <div class="orbit orbit-venus" id="position-venus">
+        <div class="planet planet-venus" id="opacity-venus">
+        <img src="https://josetxu.com/demos/img/venus.png" alt="venus">
+        </div>
+        </div>
+        <div class="orbit orbit-earth" id="position-earth">
+        <div class="planet planet-earth" id="opacity-earth">
+        <img src="https://josetxu.com/demos/img/earth.png" alt="earth">
+        </div>
+        </div>
+        <div class="orbit orbit-mars" id="position-mars">
+        <div class="planet planet-mars" id="opacity-mars">
+        <img src="https://josetxu.com/demos/img/mars.png" alt="mars">
+        </div>
+        </div>
+        <div class="orbit orbit-asteroids" id="position-asteroids">
+        <div class="planet planet-asteroids" id="opacity-asteroids">
+        <img src="https://josetxu.com/demos/img/asteroids-belt.png" alt="asteroids">
+        </div>
+        </div>
+        <div class="new-year-line">NEW YEAR <span id='cronoNewYear'></span></div>
+        <div class="winter-solstice-line">WINTER SOLSTICE <span id="cronoWinterSolstice"></span></div>
+        </div>
+        <div id="warning"><p>it seems that the earth has gone out of its orbit... <button id="reload" onclick="location.reload()">RE-ORBIT</button></p></div>
+</body>
+</html>
